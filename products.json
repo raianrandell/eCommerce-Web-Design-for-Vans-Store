@@ -1,0 +1,167 @@
+[
+  {
+    "id": "Slip-On Checkerboard Shoe" ,
+    "title": "Slip-On Checkerboard Shoe",
+    "stocks": 20,
+    "description": "The Slip-On Checkerboard Shoe is a classic and iconic footwear design that gained popularity in the skateboarding and street fashion scenes.",
+    "price": 65,
+    "image": "images/item1.png",
+    "sizes": ["US 6", " US 7", " US 8"]
+  },
+  {
+    "id": "White Slip-On Shoe",
+    "title": "White Slip-On Shoe",
+    "stocks": 21,
+    "description": "The Vans White Slip-On Shoe is a classic and iconic footwear option known for its simple yet stylish design. It features a low-top silhouette with a slip-on construction, meaning it lacks traditional laces and can be easily slipped on and off.",
+    "price": 70,
+    "image": "images/item2.png",
+    "sizes": ["US 7", " US 8", " US 9"]
+  },
+  {
+    "id": "SKATE SLIP-ON SHOE",
+    "title": "SKATE SLIP-ON SHOE",
+    "stocks": 25,
+    "description": "The Vans Skate Slip-On Shoe is a variation of the classic Slip-On style that is specifically designed for skateboarding. It retains the slip-on construction and low-top silhouette but incorporates features that enhance performance and durability for skateboarding activities.",
+    "price": 75,
+    "image":  "images/item3.png",
+    "sizes": ["US 8", " US 9", " US 10"]
+  },
+
+  
+  {
+    "id": "CLASSIC SLIP-ON CAMO",
+    "title": "CLASSIC SLIP-ON CAMO",
+    "stocks": 28,
+    "description": "The Vans Classic Slip-On Camo is a variation of the iconic Vans Classic Slip-On shoe that features a camouflage pattern. The camo pattern adds a unique and stylish touch to the classic slip-on design.",
+    "price": 60,
+    "image": "images/item4.png",
+    "sizes": ["US 6", " US 7 ", " US 8", " US 9"]
+  },
+  {
+    "id": "CLASSIC SLIP-ON",
+    "title": "CLASSIC SLIP-ON",
+    "stocks": 32,
+    "description": "The Vans Classic Slip-On is an iconic shoe style from Vans that has been popular since its introduction in the 1970s. The Slip-Ons are known for their slip-on design, low-profile silhouette, and durable canvas upper. They feature elastic side accents and padded collars for added comfort.",
+    "price": 60,
+    "image": "images/item5.png",
+    "sizes": ["US 6", " US 7 ", " US 8"]
+  },
+  {
+    "id": "CUSTOMS ALOHA SLIP-ON",
+    "title":"CUSTOMS ALOHA SLIP-ON",
+    "stocks": 46,
+    "description": "Vans Custom Aloha Slip-Ons are a customized version of the classic Vans Slip-On shoes, featuring an Aloha-inspired design. ",
+    "price": 80,
+    "image": "images/item6.png",
+    "sizes": ["US 7", " US 8", " US 9"]
+  },
+  {
+    "id": "OLD SKOOL SHOE",
+    "title": "OLD SKOOL SHOE",
+    "stocks": 78,
+    "description": "The Vans Old Skool is another iconic shoe style from Vans that has been popular since its introduction in 1977. It is known for its classic low-top skate shoe design with a durable canvas and suede upper.",
+    "price": 75,
+    "image": "images/item7.png",
+    "sizes": ["US 8", " US 9 ", " US 10"]
+  },
+  {
+    "id": "OLD SKOOL BOLT",
+    "title": "OLD SKOOL BOLT",
+    "stocks": 46,
+    "description": "Old Skool Bolt features thunderbolt detailing along the eyelets and emerging from the front bumper. This lace-up shoe is made with sturdy suede and canvas uppers and comes equipped with signature rubber waffle outsoles.",
+    "price": 48,
+    "image": "images/item8.png",
+    "sizes": ["US 6", " US 7", " US 8", " US 9"]
+  },
+  {
+    "id": "OLD SKOOL CANVAS SHOE",
+    "title": "OLD SKOOL CANVAS SHOE",
+    "stocks": 56,
+    "description": "The Vans Old Skool Canvas Shoe is a classic version of the Old Skool sneaker. It features a canvas upper, which is a durable and breathable material that is commonly used in Vans shoes.",
+    "price": 65,
+    "image": "images/item9.png",
+    "sizes": ["US 6", " US 7", " US 8"]
+  },
+  {
+    "id": "OLD SKOOL VR3",
+    "title": "OLD SKOOL VR3",
+    "stocks": 78,
+    "description": "The Vans Old Skool VR3 is a variation of the classic Old Skool sneaker with unique features or design elements.",
+    "price": 75,
+    "image": "images/item10.png",
+    "sizes": ["US 8", " US 9 ", " US 10"]
+  },
+  {
+    "id": "COMFYCUSH OLD SKOOL",
+    "title": "COMFYCUSH OLD SKOOL",
+    "stocks": 46,
+    "description": "The Vans ComfyCush Old Skool is a variation of the classic Old Skool skate shoe offered by Vans. The ComfyCush technology is a feature that Vans introduced to enhance comfort and provide a cushioned feel to their shoes.",
+    "price": 48,
+    "image": "images/item11.png",
+    "sizes": ["US 6", " US 7", " US 8", " US 9"]
+  },
+  {
+    "id": "OLD SKOOL VINTAGE FLORAL",
+    "title": "OLD SKOOL VINTAGE FLORAL",
+    "stocks": 56,
+    "description": "The Old Skool Vintage Floral is a stylish variation of the classic Old Skool skate shoe by Vans. It features a unique floral pattern that adds a vintage and feminine touch to the shoe's design. ",
+    "price": 65,
+    "image": "images/item12.png",
+    "sizes": ["US 6", " US 7", " US 8"]
+  },
+  {
+    "id": "VANS AUTHENTIC (BLACK)",
+    "title": "VANS AUTHENTIC (BLACK)",
+    "stocks": 78,
+    "description": "The Vans Authentic in black is another classic and versatile option from the Vans lineup. The Authentic silhouette is known for its simplicity, and the black colorway adds a sleek and timeless touch to the shoe's design.",
+    "price": 75,
+    "image": "images/item13.png",
+    "sizes": ["US 8", " US 9 ", " US 10"]
+  },
+  {
+    "id": "VANS AUTHENTIC (GREEN)",
+    "title": "VANS AUTHENTIC (GREEN)",
+    "stocks": 46,
+    "description": "The Vans Authentic in green is a classic and timeless sneaker offered by Vans. The Authentic silhouette is one of Vans' most iconic and enduring styles, known for its simplicity and versatility.",
+    "price": 48,
+    "image": "images/item14.png",
+    "sizes": ["US 6", " US 7", " US 8", " US 9"]
+  },
+  {
+    "id": "AUTHENTIC EMBROIDERED CHECK",  
+    "title": "AUTHENTIC EMBROIDERED CHECK",
+    "stocks": 56,
+    "description": "The Vans Authentic Embroidered Check is a stylish and unique iteration of the classic Vans Authentic shoe. It retains the timeless silhouette of the Authentic while adding a distinctive embroidered check pattern for added flair.",
+    "price": 65,
+    "image": "images/item15.png",
+    "sizes": ["US 6", " US 7", " US 8"]
+  },
+  {
+    "id": "AUTHENTIC PRIDE SHOE",
+    "title": "AUTHENTIC PRIDE SHOE",
+    "stocks": 78,
+    "description": "The Vans Authentic Pride Shoe is a special edition release by Vans that celebrates and supports the LGBTQ+ community. It is part of Vans' ongoing commitment to inclusivity and diversity.",
+    "price": 75,
+    "image": "images/item16.png",
+    "sizes": ["US 8", " US 9 ", " US 10"]
+  },
+  {
+    "id": "AUTHENTIC MESH VR3 SF",
+    "title": "AUTHENTIC MESH VR3 SF",
+    "stocks": 46,
+    "description": "The Authentic Mesh VR3 SF blends sustainable design with our timeless surf-based lace-up shoe to create an upgraded, comfortable collapsible heel style.",
+    "price": 48,
+    "image": "images/item17.png",
+    "sizes": ["US 6", " US 7", " US 8", " US 9"]
+  },
+  {
+    "id": "AUTHENTIC VR3 SF TIE-DYE", 
+    "title": "AUTHENTIC VR3 SF TIE-DYE",
+    "stocks": 56,
+    "description": "The Tie Dye Authentic VR3 SF blends sustainable design with our timeless surf-based lace-up shoe to create an upgraded, comfortable collapsible heel style.",
+    "price": 65,
+    "image": "images/item18.png",
+    "sizes": ["US 6", " US 7", " US 8"]
+  }
+  
+]

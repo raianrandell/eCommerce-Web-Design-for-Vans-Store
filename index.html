@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Website | Shop Now</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- ---------------->
+  <link rel="icon" href="images/vans.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/vans.ico" type="image/x-icon">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- AOS script & css -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/6a4d1fb5aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- INITIALIZE AOS -->
+  <script>
+    AOS.init();
+  </script>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Vans Logo" height="30" data-aos="fade-right" data-aos-duration="800">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" data-aos="fade-down" data-aos-duration="800" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-dark dropdown-toggle no-arrow" data-aos="fade-down" data-aos-duration="800" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#slip-on">SLIP ON</a></li>
+              <li><a class="dropdown-item" href="#old-skool">OLD SKOOL</a></li>
+              <li><a class="dropdown-item" href="#authentic">AUTHENTIC</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" data-aos="fade-down" data-aos-duration="800" href="#about-head">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" data-aos="fade-down" data-aos-duration="800" href="#contactUs">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form class="d-flex" data-aos="fade-down" data-aos-duration="800">
+      <input class="form-control me-2" type="search" placeholder="Search product name here.." id="productSearchInput">
+      <button class="btn btn-outline-dark" type="button" id="productFilterButton">Search</button>
+      <button class="btn btn-outline-dark" type="button" id="addToCartButton" onclick="addToCart()">
+        <i class="fas fa-shopping-cart"></i> 
+      </button>
+      <button class="btn btn-outline-dark" type="button" id="login-btn" onclick="login()">Login</button>
+    </form>      
+  </nav>
+  
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-caption" data-aos="fade-right" data-aos-duration="800">
+        <h1 class="carousel-cap-h1">VANS OFF THE WALL</h1><br>
+        <p class="carousel-cap-p">The Vans® brand has been connecting with youth culture to promote creative self-expression, authenticity and individuality for over 50 years, proudly celebrating the brand’s deep heritage in action sports, art, music and street culture.
+          Today, the Vans’ evolution continues. From its foundation as an original skateboarding company and its emergence as a leading action sports brand, to its rise in becoming one of the world’s most influential action sport and youth culture brands —Vans® has championed powerful cultural storytelling that matches its business performance.       
+</p>
+
+<a class="btn2" href="#shop-now">Get Started</a>
+      </div>
+      <img src="images/1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <h1 class="carousel-cap-h1">VANS OFF THE WALL</h1><br>
+        <p class="carousel-cap-p">The Vans® brand has been connecting with youth culture to promote creative self-expression, authenticity and individuality for over 50 years, proudly celebrating the brand’s deep heritage in action sports, art, music and street culture.
+
+          Today, the Vans’ evolution continues. From its foundation as an original skateboarding company and its emergence as a leading action sports brand, to its rise in becoming one of the world’s most influential action sport and youth culture brands —Vans® has championed powerful cultural storytelling that matches its business performance.
+          
+</p>
+
+<a class="btn2" href="#shop-now">Get Started</a>
+      </div>
+      <img src="images/2.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <h1 class="carousel-cap-h1">VANS OFF THE WALL</h1><br>
+        <p class="carousel-cap-p">The Vans® brand has been connecting with youth culture to promote creative self-expression, authenticity and individuality for over 50 years, proudly celebrating the brand’s deep heritage in action sports, art, music and street culture.
+
+          Today, the Vans’ evolution continues. From its foundation as an original skateboarding company and its emergence as a leading action sports brand, to its rise in becoming one of the world’s most influential action sport and youth culture brands —Vans® has championed powerful cultural storytelling that matches its business performance.
+          
+</p>
+
+<a class="btn2" href="#shop-now">Get Started</a>
+      </div>
+      <img src="images/3.jpg" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="#" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="#" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </a>
+</div>
+
+
+  <!-- Products Section -->
+  <section class="products" id="shop" data-aos="fade-down"
+  data-aos-duration="2000">
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-12">
+          <br><br>
+          <h2 id="shop-now">Shop Now</h2>
+          <br>
+        </div>
+      </div>
+      <div class="row" id="product-list">
+        <!-- Products will be added here dynamically using JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Details Modal -->
+  <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="productModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="" alt="" class="img-fluid" id="productModalImage">
+            </div>
+            <div class="col-md-6">
+              <p id="productModalDescription"></p>
+              <p id="productModalPrice"></p>
+              <p id="productModalStocks"></p>
+              <p id="productModalSizes"></p>
+              <div id="productModalSizesContainer"></div>
+              <a class="fancy" id="addCartPrompt">
+                <span class="top-key"></span>
+                <span class="text">Add to Cart</span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  
+  <h3 class="quick-ass" id="about-head"></h3><br><br>
+  <h2 id="about-header" data-aos="fade-down"
+  data-aos-duration="2000"><b>About Us</b></h2><br><br>
+  <h3 class="quick-ass" data-aos="fade-right"
+  data-aos-duration="2000">QUICK ASSISTS</h3>
+  <p class="quick-ass" data-aos="fade-right"
+  data-aos-duration="2000">Answers to our frequently asked question are just one click away</p>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="custom-border">
+                <div class="flip-card" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">DISPATCH & DELIVERY</p>
+                            <p class="view">View More</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flipcard-content">To get free delivery on Vans orders, you can check for any ongoing promotions or offers that provide free shipping. These promotions may have specific requirements, such as a minimum order value or the use of a promotional code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="custom-border">
+                <div class="flip-card" data-aos="fade-down" data-aos-duration="3000">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">RETURNS</p>
+                            <p class="view">View More</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flipcard-content">Vans return policy allows you to return your order within a specified period, usually within 30 days of the purchase date. To initiate a return, you can follow the instructions provided on Vans website or contact their customer service for assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="custom-border">
+                <div class="flip-card" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">VANS MEMBERSHIP</p>
+                            <p class="view">View More</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flipcard-content">Vans membership program may offer benefits such as free delivery on orders. To get free delivery as a Vans member, you'll need to check the specific terms and conditions of the membership program and see if free delivery is included.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="custom-border">
+                <div class="flip-card" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">ORDERS</p>
+                            <p class="view">View More</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flipcard-content">To get free delivery on Vans orders, you can check for any ongoing promotions or offers that provide free shipping. These promotions may have specific requirements, such as a minimum order value or the use of a promotional code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="custom-border">
+                <div class="flip-card" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title" id="prod-info">PRODUCT INFORMATION</p>
+                            <p class="view">View More</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flipcard-content">For detailed information about Vans products, including specifications, materials, sizing, and features, it's recommended to visit Vans official website or explore their online product catalog.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="custom-border">
+                <div class="flip-card" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p class="title">CORPORATE</p>
+                            <p class="view">View More</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="flipcard-content">For information regarding corporate orders, partnerships, or bulk purchases with Vans, it's best to contact Vans corporate sales or customer service. They can provide you with specific details, pricing, and assistance tailored to your corporate needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br><br><br>
+
+  <!-- Footer -->
+<footer class="footer bg-dark text-white" id="shop">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img data-aos="fade-down" data-aos-duration="2000" src="images/logo.png" id="bottom-logo" alt="Logo">
+        <p data-aos="fade-right"
+        data-aos-duration="2000" class="footer-desc">Vans is the original action sports footwear company rooted in authenticity and creativity. Founded in 1966, Vans has thrived on a legacy of impacting our greater community through Vans four pillars: action sports, music, art and street culture. We are constantly inspired by the expressive creators within our company and community as they bring new and innovative perspectives to help shape and transform the future of our business.</p>
+      </div>
+      <div class="col-md-3"><br>
+        <h4 data-aos="fade-down" id="quickLinks"
+        data-aos-duration="2000">Social Links</h4>
+        <ul class="list-unstyled">
+          <li data-aos="fade-right"
+          data-aos-duration="2000" class="footer-fb"><a href="https://www.facebook.com/vansphmanila/" id="fb-link"><i class="fa-brands fa-square-facebook fa-bounce fa-sm"></i>&nbsp;&nbsp;Facebook</a></li>
+          <li data-aos="fade-right"
+          data-aos-duration="2000" class="footer-ig"><a href="https://www.instagram.com/vans/" id="ig-link"><i class="fa-brands fa-instagram fa-bounce fa-sm"></i>&nbsp;&nbsp;Instagram</a></li>
+          <li data-aos="fade-right"
+          data-aos-duration="2000" class="footer-twt"><a href="https://twitter.com/Vans" id="twt-link"><i class="fa-brands fa-twitter fa-bounce fa-sm"></i>&nbsp;&nbsp;Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 id="contactUs" data-aos="fade-down"
+        data-aos-duration="2000">Contact Us</h4>
+        <ul class="list-unstyled">
+          <li data-aos="fade-right"
+          data-aos-duration="2000" class="footer-desc"><i class="fas fa-map-marker-alt fa-bounce"></i>&nbsp; MNL, Philippines</li>
+          <li data-aos="fade-right"
+          data-aos-duration="2000" class="footer-desc"><i class="fas fa-phone fa-bounce "></i>&nbsp; +63 234 567 8900</li>
+          <li data-aos="fade-right" data-aos-duration="2000" class="footer-desc">
+            <a class="email-link">
+              <i class="fas fa-envelope fa-bounce"></i>&nbsp;vans@gmail.com
+            </a>
+          </li> 
+          <li data-aos="fade-right" data-aos-duration="2000" class="footer-desc"><i class="fa-solid fa-mobile fa-bounce "></i>&nbsp;&nbsp;24/7 Open</li>
+          <li data-aos="fade-right" data-aos-duration="2000" class="footer-desc">
+            <img src="images/auth.png" alt="logo" id="auth-logo">&nbsp;&nbsp;Find Vans retail stores near you
+          </li>         
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center">
+      <p>&copy; 2023 Vans®. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
